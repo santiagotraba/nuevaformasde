@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
@@ -6,7 +7,7 @@ const About = () => {
     {
       id: 1,
       name: "Roxana María Colabufo",
-      image: "/lovable-uploads/bfe79540-3e1a-4cb6-ad2c-236104fdb583.png",
+      image: "/lovable-uploads/4c429bdb-bb0a-4a6b-8045-ceab841f5711.png",
       description: "Profesora de Educación Física. Terapeuta en Medicina China, Naturópata. Maestra Instructora y Terapeuta en el Sistema Biogénesis.",
       role: "Co-fundadora"
     },
@@ -20,7 +21,7 @@ const About = () => {
     {
       id: 3,
       name: "Alguien",
-      image: "/lovable-uploads/4c429bdb-bb0a-4a6b-8045-ceab841f5711.png",
+      image: "/lovable-uploads/bfe79540-3e1a-4cb6-ad2c-236104fdb583.png",
       description: "Alguien representa a todas las personas que se suman a nuestros eventos. No es una figura pasiva, sino el creador de su propia realidad. Esta figura poética simboliza la comunidad que co-creamos: auténtica, valiente y comprometida con un cambio consciente.",
       role: "Comunidad"
     }
