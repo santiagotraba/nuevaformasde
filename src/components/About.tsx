@@ -20,7 +20,7 @@ const About = () => {
     {
       id: 3,
       name: "Alguien",
-      image: "/lovable-uploads/0d51c9bc-9115-4374-b59e-fc3303edcb9d.png",
+      image: "/lovable-uploads/4c429bdb-bb0a-4a6b-8045-ceab841f5711.png",
       description: "Alguien representa a todas las personas que se suman a nuestros eventos. No es una figura pasiva, sino el creador de su propia realidad. Esta figura poética simboliza la comunidad que co-creamos: auténtica, valiente y comprometida con un cambio consciente.",
       role: "Comunidad"
     }
