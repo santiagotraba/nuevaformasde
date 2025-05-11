@@ -1,11 +1,36 @@
 
 import React from 'react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
+  const teamMembers = [
+    {
+      id: 1,
+      name: "Roxana María Colabufo",
+      image: "/lovable-uploads/4c429bdb-bb0a-4a6b-8045-ceab841f5711.png",
+      description: "Profesora de Educación Física. Terapeuta en Medicina China, Naturópata. Maestra Instructora y Terapeuta en el Sistema Biogénesis.",
+      role: "Co-fundadora"
+    },
+    {
+      id: 2,
+      name: "Emiliano Rossotti",
+      image: "/lovable-uploads/422cc480-aaaa-4744-90af-f294d0f69c13.png",
+      description: "Arquitecto UBA, especialista en arquitectura social y participativa, aprendiz de Permacultura. Co-autor del proyecto Comunidad Barrios Soberanos, un proyecto social y autogestivo que busca co-crear nuevas comunidades en armonía con la naturaleza.",
+      role: "Co-fundador"
+    },
+    {
+      id: 3,
+      name: "Alguien",
+      image: "/lovable-uploads/0d51c9bc-9115-4374-b59e-fc3303edcb9d.png",
+      description: "Alguien representa a todas las personas que se suman a nuestros eventos. No es una figura pasiva, sino el creador de su propia realidad. Esta figura poética simboliza la comunidad que co-creamos: auténtica, valiente y comprometida con un cambio consciente.",
+      role: "Comunidad"
+    }
+  ];
+
   return (
     <section id="nosotros" className="section-padding bg-nfd-dark text-white">
       <div className="container">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 animate-fade-in">
             Quiénes <span className="text-nfd-green">Somos</span>
           </h2>
@@ -52,6 +77,31 @@ const About = () => {
                 regeneración de nuestro planeta.
               </p>
             </div>
+          </div>
+        </div>
+        
+        {/* Team Section */}
+        <div className="pt-16 border-t border-white/10">
+          <h3 className="text-3xl font-bold mb-12 text-center">Nuestro <span className="text-nfd-green">Equipo</span></h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {teamMembers.map((member) => (
+              <div key={member.id} className="flex flex-col items-center text-center animate-fade-in">
+                <div className="mb-6 relative">
+                  <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-nfd-green/40 hover-lift">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </div>
+                
+                <h4 className="text-2xl font-semibold mb-2 text-nfd-beige">{member.name}</h4>
+                <p className="text-nfd-green mb-4 font-medium">{member.role}</p>
+                <p className="text-white/80">{member.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

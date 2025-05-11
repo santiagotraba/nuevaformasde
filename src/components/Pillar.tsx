@@ -14,6 +14,21 @@ type PillarProps = {
 const Pillar = ({ id, title, description, imageSrc, color, index }: PillarProps) => {
   const isEven = index % 2 === 0;
   
+  const getColorClass = (baseClass: string) => {
+    switch (color) {
+      case 'nfd-green':
+        return `${baseClass}-nfd-green`;
+      case 'nfd-orange':
+        return `${baseClass}-nfd-orange`;
+      case 'nfd-rust':
+        return `${baseClass}-nfd-rust`;
+      case 'nfd-beige':
+        return `${baseClass}-nfd-beige`;
+      default:
+        return `${baseClass}-nfd-green`;
+    }
+  };
+  
   return (
     <section 
       id={id}
@@ -57,7 +72,7 @@ const Pillar = ({ id, title, description, imageSrc, color, index }: PillarProps)
             <div className="flex flex-wrap gap-4">
               <span className={cn(
                 "px-4 py-2 rounded-full text-white text-sm font-medium",
-                `bg-${color}`
+                getColorClass("bg")
               )}>
                 Innovación
               </span>
