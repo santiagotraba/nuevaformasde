@@ -80,10 +80,8 @@ const About = () => {
           </div>
         </div>
         
-        {/* Team Section */}
-        <div className="pt-16 border-t border-white/10">
-          <h3 className="text-3xl font-bold mb-12 text-center">Nuestro <span className="text-nfd-green">Equipo</span></h3>
-          
+        {/* Team Members */}
+        <div className="mt-16 pt-16 border-t border-white/10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {teamMembers.map((member) => (
               <div key={member.id} className="flex flex-col items-center text-center animate-fade-in">
