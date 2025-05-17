@@ -7,7 +7,7 @@ const About = () => {
     {
       id: 1,
       name: "Roxana María Colabufo",
-      image: "/lovable-uploads/4c429bdb-bb0a-4a6b-8045-ceab841f5711.png",
+      image: "/lovable-uploads/c2ba3b8e-baab-4e3b-8e3c-944085e7e1d2.png",
       description: "Profesora de Educación Física. Terapeuta en Medicina China, Naturópata. Maestra Instructora y Terapeuta en el Sistema Biogénesis.",
       role: "Co-fundadora"
     },
