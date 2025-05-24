@@ -7,6 +7,7 @@ import About from '@/components/About';
 import InstagramFeed from '@/components/InstagramFeed';
 import ContactForm from '@/components/ContactForm';
 import Footer from '@/components/Footer';
+import PrimeraConvencion from '@/components/PrimeraConvencion';
 
 const Index = () => {
   const pillars = [
@@ -90,6 +91,9 @@ const Index = () => {
         />
       ))}
       
+      {/* PrimeraConvencion */}
+      <PrimeraConvencion />
+
       {/* Quotes Section */}
       <section className="section-padding bg-nfd-beige">
         <div className="container">
