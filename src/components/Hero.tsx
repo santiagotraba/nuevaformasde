@@ -33,15 +33,14 @@ const Hero = ({ className }: HeroProps) => {
             <span className="text-white">El Mundo</span>
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-10 text-white/90">
-            Inspirando a las personas a ser protagonistas de sus propias soluciones
-            para un futuro más saludable, conectado y sostenible.
+            Inspirando a las personas a ser protagonistas de sus procesos, eligiendo, decidiendo y aplicando sus propias soluciones para un futuro más saludable, integrado y sustentable.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="#pilares" 
               className="px-8 py-3 bg-nfd-green text-white rounded-lg font-medium hover-lift"
             >
-              Descubrir Pilares
+              NUESTROS PILARES 
             </a>
             <a 
               href="#nosotros" 

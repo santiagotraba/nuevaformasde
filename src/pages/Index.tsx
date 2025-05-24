@@ -13,35 +13,35 @@ const Index = () => {
     {
       id: "salud",
       title: "Nuevas Formas de Salud",
-      description: "Promovemos un enfoque integral de la salud, que combina saberes ancestrales con avances científicos, poniendo el bienestar de las personas y comunidades en el centro. Impulsamos una medicina preventiva, participativa y personalizada.",
+      description: "Alentamos y promovemos un enfoque de salud integral, articulando/integrando los mejores saberes ancestrales con los más actuales y avanzados descubrimientos científicos, enfocándonos en el bienestar de las personas y de las comunidades. Impulsamos una medicina de calidad, que incorpora desde el inicio el aprendizaje sobre la prevención y los hábitos, así como la participación activa, permitiendo alcanzar soluciones para cada realidad individual.",
       imageSrc: "https://via.placeholder.com/800x600",
       color: "nfd-green"
     },
     {
       id: "nutricion",
       title: "Nuevas Formas de Nutrición",
-      description: "Fomentamos sistemas alimentarios sostenibles basados en principios agroecológicos, que respetan la biodiversidad y promueven la soberanía alimentaria. Apoyamos el consumo consciente, local y de temporada.",
+      description: "Fomentamos sistemas alimentarios sustentables basados en principios agroecológicos, integrándolos al sistema de salud preventiva, respetando la biodiversidad, e impulsando especialmente la soberanía alimentaria. Todo ello amparado en el consumo consciente, incorporando aprendizajes que permitan un máximo aprovechamiento tanto de los recursos locales y como los de temporada.",
       imageSrc: "https://via.placeholder.com/800x600",
       color: "nfd-orange"
     },
     {
       id: "educacion",
       title: "Nuevas Formas de Educación",
-      description: "Impulsamos modelos educativos que cultivan el pensamiento crítico, la creatividad y el aprendizaje experiencial. Creemos en espacios de aprendizaje horizontales, colaborativos y conectados con los desafíos reales de nuestro tiempo.",
+      description: "Impulsamos modelos educativos enfocados en el desarrollo permanente del pensamiento crítico, en la creatividad, y el aprendizaje experiencial sumado a una integración e intercambio que respete la diferencia como un recurso de enriquecimiento mutuo. Creemos en espacios de aprendizaje horizontal, colaborativo y conectado a los desafíos reales de nuestro tiempo.",
       imageSrc: "https://via.placeholder.com/800x600",
       color: "nfd-rust"
     },
     {
       id: "comunidades",
       title: "Nuevas Formas de Comunidad",
-      description: "Promovemos formas de organización social basadas en la cooperación, la equidad y el cuidado mutuo. Facilitamos procesos de participación ciudadana que fortalecen el tejido comunitario y la toma de decisiones colectivas.",
+      description: "Promovemos modos de organización social basados en la cooperación, la equidad y el cuidado mutuo. Alentamos los procesos de participación ciudadana que desarrolla y fortalece el tejido comunitario basado en la reciprocidad del respeto, aceptación de las diferencias, y finalmente la toma de decisiones colectivas, partiendo desde un mínimo de acuerdos troncales/centrales.",
       imageSrc: "https://via.placeholder.com/800x600",
       color: "nfd-green"
     },
     {
       id: "energia",
       title: "Nuevas Formas de Energía",
-      description: "Apoyamos la transición hacia sistemas energéticos renovables, descentralizados y gestionados por las comunidades. Promovemos la eficiencia energética y la consciencia sobre nuestros patrones de consumo.",
+      description: "Nos identificamos y apoyamos una transición hacia sistemas energéticos renovables, descentralizados y soberanos, desarrollados y gestionados por las comunidades. Promovemos la eficiencia energética como un principio de aprendizaje e interiorización de la conciencia orientada al cuidado medioambiental, promoviendo así la responsabilidad sobre nuestros consumos.",
       imageSrc: "https://via.placeholder.com/800x600",
       color: "nfd-orange"
     }
